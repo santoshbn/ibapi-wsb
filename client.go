@@ -32,6 +32,7 @@ type IbClient struct {
 	mu                   sync.Mutex
 	requestIdMutex       sync.Mutex
 	contractDetailsMutex sync.Mutex
+	Wg sync.WaitGroup
 }
 
 type MessageBus interface {

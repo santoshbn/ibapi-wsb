@@ -1,4 +1,4 @@
-module github.com/wboayue/ibapi
+module github.com/santoshbn/ibapi-wsb
 
 go 1.17
 
